@@ -4,7 +4,7 @@ n = int(input())
 arr = []
 for i in range(n):
     arr.append(input())
-    input()
 
-for i in range(len(arr)):
-    print(arr[i])
+for i in range(n):
+    if i % 2 == 0:
+        print(arr[i])
