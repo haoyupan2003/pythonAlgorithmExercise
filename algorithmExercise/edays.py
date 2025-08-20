@@ -1,4 +1,6 @@
-# Read inputs
+# https://open.kattis.com/problems/edays
+
+# # Read inputs
 d = int(input())   # distance to the capitol
 n = int(input())   # number of students (not used)
 t = int(input())   # temperature (not used)
