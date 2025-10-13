@@ -7,7 +7,7 @@ n = int(input())
 for i in range(n):
     arr.append(input())
 
-for i in range(n):
+for i in range(n-1):
     if arr[i] == "drunk" and arr[i+1] == "sober":
         cnt += 1
 
