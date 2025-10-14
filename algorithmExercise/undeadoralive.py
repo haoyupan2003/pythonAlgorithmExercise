@@ -1,0 +1,12 @@
+# https://open.kattis.com/problems/undeadoralive
+
+text = input()
+
+if ":)" in text and ":(" in text:
+    print("double agent")
+elif ":)" in text:
+    print("alive")
+elif ":(" in text:
+    print("undead")
+else:
+    print("machine")
