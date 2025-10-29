@@ -5,3 +5,4 @@ n = int(input())  # number of laps
 
 total_time = t * n
 print(total_time)
+
