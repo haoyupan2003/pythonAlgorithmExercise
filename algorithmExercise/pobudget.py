@@ -15,3 +15,4 @@ elif total == 0:
     print("Lagom")
 else:
     print("Nekad")
+ 
