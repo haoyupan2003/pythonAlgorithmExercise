@@ -1,3 +1,4 @@
+
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -16,3 +17,4 @@ class Solution:
                 stack.pop()
 
         return not stack
+
